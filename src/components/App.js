@@ -1,6 +1,5 @@
 import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
-
 import { Routes, Route } from 'react-router-dom';
 import { HomePage } from '../Pages/HomePage';
 import { RegisterPage } from 'Pages/RegisterPage';

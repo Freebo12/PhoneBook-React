@@ -6,6 +6,7 @@ import {
 } from 'formik';
 
 export const BtnSubmit = styled.button`
+  cursor: pointer;
   border-color: gray;
   width: 250px;
   text-decoration: none;
@@ -63,14 +64,14 @@ export const Field = styled(FormikField)`
     font-size: 1.3rem;
     cursor: text;
     top: 20px;
-    color: white;
+    color: black;
     &:focus {
       color: transparent;
       background-color: transparent;
     }
   }
   &:focus {
-    color: white;
+    color: black;
     font-weight: 900;
     font-size: 30;
   }

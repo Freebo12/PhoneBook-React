@@ -6,6 +6,7 @@ export const HeaderBar = styled.header`
   align-items: center;
   margin-bottom: 16px;
   border-bottom: 5px solid #2a363b;
+  align-items: baseline;
   background-image: linear-gradient(
     to right,
     #a7be8e 0%,
@@ -88,6 +89,7 @@ export const BtnHome = styled.button`
 `;
 
 export const BtnLogOut = styled.button`
+  cursor: pointer;
   border-color: gray;
   width: 160px;
   text-decoration: none;
@@ -130,4 +132,10 @@ export const TitleWelcome = styled.h3`
 
 export const UserEmail = styled.span`
   color: orangered;
+`;
+
+export const NavElem = styled.nav`
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
 `;
