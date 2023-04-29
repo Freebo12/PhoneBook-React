@@ -1,8 +1,7 @@
 import { useEffect } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { getState } from './Redux/contacts/selectors';
+import { useDispatch } from 'react-redux';
 
-import { Routes, Route, redirect } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import { HomePage } from '../Pages/HomePage';
 import { RegisterPage } from 'Pages/RegisterPage';
 import { LogInPage } from 'Pages/LoginPage';
