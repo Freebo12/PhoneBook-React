@@ -1,5 +1,4 @@
 import { ListElem } from '../ListElem/ListElem';
-import { ListContactsStyle } from './ListContacts.styled';
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
 import { getContacts, getValidContacts } from '../Redux/contacts/selectors';
