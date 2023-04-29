@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import { useAuth } from '../hooks/useAuth';
 import styled from 'styled-components';
-import { BtnHeader, BtnHome, NavElem } from './HeaderBar.styled';
+import { NavElem } from './HeaderBar.styled';
 
 const StyledLink = styled(NavLink)`
   color: black;
