@@ -1,7 +1,7 @@
 import * as Yup from 'yup';
 import { Formik } from 'formik';
 import { useDispatch } from 'react-redux';
-import { addContact } from 'components/Redux/operations';
+import { addContact } from 'components/Redux/contacts/operations';
 import { Field, Form, BtnSubmit, ErrorMessage } from './PhoneBook.styled';
 
 const PhoneBookSchema = Yup.object().shape({

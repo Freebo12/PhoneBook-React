@@ -1,5 +1,5 @@
 import { BtnDelete } from './ListElem.stlyed';
-import { deleteContact } from 'components/Redux/operations';
+import { deleteContact } from 'components/Redux/contacts/operations';
 import { useDispatch } from 'react-redux';
 
 export const ListElem = ({ contact }) => {

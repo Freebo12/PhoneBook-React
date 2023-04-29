@@ -1,12 +1,31 @@
 import styled from '@emotion/styled';
 
-export const BtnDelete = styled.button`
+export const RegisterFormBox = styled.form`
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: baseline;
+  /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+`;
+
+export const FormStyle = styled.form`
+  display: flex;
+  align-items: flex-start;
+  margin-top: 30px;
+`;
+
+export const RegisterBtn = styled.button`
   border-color: gray;
   width: 150px;
   text-decoration: none;
   display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
   color: white;
-  font-weight: 700;
+  font-weight: 900;
   padding: 20px 30px;
   margin: 10px 20px;
   border-radius: 10px;
